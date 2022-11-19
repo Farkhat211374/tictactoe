@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tictactoe.Controllers.mainSceneController">
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutY="45.0" maxWidth="1.7976931348623157E308" prefHeight="53.0" prefWidth="500.0" styleClass="tic_tac_toe_Label" text="TIC-TAC-TOE" textAlignment="CENTER" AnchorPane.bottomAnchor="402.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+               <font>
+                  <Font name="Arial Bold" size="46.0" />
+               </font>
+            </Label>
+            <VBox layoutX="54.0" layoutY="134.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="253.0" prefWidth="500.0" spacing="15.0" styleClass="main_vbox" stylesheets="@css/Style.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Button fx:id="twoPlayersButton" alignment="CENTER" mnemonicParsing="false" onAction="#twoPlayersButtonONAction" prefHeight="46.0" prefWidth="198.0" styleClass="main_buttons" text="2 PLAYERS">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="multiplayerButton" alignment="CENTER" mnemonicParsing="false" onAction="#multiplayerButtonONAction" prefHeight="46.0" prefWidth="198.0" styleClass="main_buttons" text="MULTIPLAYER">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="settingsButton" alignment="CENTER" mnemonicParsing="false" onAction="#settingsButtonONAction" prefHeight="46.0" prefWidth="198.0" styleClass="main_buttons" text="SETTINGS">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="escapeButton" alignment="CENTER" mnemonicParsing="false" onAction="#escapeButtonONAction" prefHeight="46.0" prefWidth="198.0" styleClass="main_buttons" text="ESCAPE">
+                     <font>
+                        <Font name="Arial Bold" size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Label alignment="CENTER" layoutX="2.0" layoutY="412.0" maxWidth="1.7976931348623157E308" prefHeight="53.0" prefWidth="500.0" styleClass="tic_tac_toe_Label" text="tic-tac-toe 0.92.1a 2022 " textAlignment="CENTER">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,23 @@
+/* Main Scene */
+.tic_tac_toe_Label{
+    /*nothing yet!*/
+}
+.main_buttons{
+    -fx-background-radius: 50px;
+}
+.main_vbox{
+    -fx-alignment: center;
+}
+
+
+/* 2 Players Scene */
+.two_players_main_pain{
+    -fx-alignment: center;
+    -fx-content-display: center;
+    -fx-fill: center;
+    -fx-background-position: center;
+}
+.two_players_grid_panes{
+    -fx-background-color: #e1e1e1;
+    -fx-background-radius: 20px;
+}
