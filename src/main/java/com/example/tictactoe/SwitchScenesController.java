@@ -27,7 +27,7 @@ public class SwitchScenesController {
             root = FXMLLoader.load(getClass().getResource("twoPlayersScene.fxml"));
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root, 500, 500);
-            stage.setTitle("3Gis");
+            stage.setTitle("Game");
             stage.setScene(scene);
             stage.show();
         }catch (Exception e){
@@ -42,9 +42,25 @@ public class SwitchScenesController {
             root = FXMLLoader.load(getClass().getResource("settingsScene.fxml"));
             stage = (Stage)((Node)event.getSource()).getScene().getWindow();
             scene = new Scene(root, 500, 500);
-            stage.setTitle("3Gis");
+            stage.setTitle("Settings");
             stage.setScene(scene);
             stage.show();
+        }catch (Exception e){
+            e.printStackTrace();
+
+        }
+    }
+
+    public void switchToMainScene(ActionEvent event){
+
+        try{
+            root = FXMLLoader.load(getClass().getResource("mainScene.fxml"));
+            stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+            scene = new Scene(root, 500, 500);
+            stage.setTitle("Settings");
+            stage.setScene(scene);
+            stage.show();
+
         }catch (Exception e){
             e.printStackTrace();
 

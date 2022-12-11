@@ -11,7 +11,7 @@ module com.example.tictactoe {
     requires eu.hansolo.tilesfx;
 
     opens com.example.tictactoe to javafx.fxml;
-    opens com.example.tictactoe.Controllers to javafx.fxml;
-    exports com.example.tictactoe.Controllers;
+    opens com.example.tictactoe.controllers to javafx.fxml;
+    exports com.example.tictactoe.controllers;
     exports com.example.tictactoe;
 }

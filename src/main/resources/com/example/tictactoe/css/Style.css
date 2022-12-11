@@ -20,4 +20,14 @@
 .two_players_grid_panes{
     -fx-background-color: #e1e1e1;
     -fx-background-radius: 20px;
+    -fx-alignment: center;
+    -fx-content-display: center;
+}
+.resultPane{
+    -fx-alignment: center;
+    -fx-content-display: center;
+    -fx-fill: center;
+    -fx-background-position: center;
+    -fx-background-radius: 30px;
+    -fx-background-color: #ffffff;
 }

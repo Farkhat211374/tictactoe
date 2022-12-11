@@ -1,11 +1,10 @@
-package com.example.tictactoe.Controllers;
+package com.example.tictactoe.controllers;
 
 import com.example.tictactoe.SwitchScenesController;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
